@@ -79,7 +79,7 @@
 	            "thumb"
 	          ],
 	          "attr": {
-	            "src": "http://t.cn/RGE3AJt"
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/21/754366bLQ2.jpg"
 	          }
 	        },
 	        {
@@ -88,7 +88,7 @@
 	            "title"
 	          ],
 	          "attr": {
-	            "value": "JavaScript"
+	            "value": function () {return this.title}
 	          }
 	        }
 	      ]
@@ -105,16 +105,7 @@
 	            "thumb"
 	          ],
 	          "attr": {
-	            "src": "http://t.cn/RGE3uo9"
-	          }
-	        },
-	        {
-	          "type": "text",
-	          "classList": [
-	            "title"
-	          ],
-	          "attr": {
-	            "value": "Java"
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/21/J7O7qaS9h3.jpg"
 	          }
 	        }
 	      ]
@@ -131,16 +122,58 @@
 	            "thumb"
 	          ],
 	          "attr": {
-	            "src": "http://t.cn/RGE31hq"
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/21/H3270Tc3z5.jpg"
 	          }
-	        },
+	        }
+	      ]
+	    },
+	    {
+	      "type": "div",
+	      "classList": [
+	        "cell"
+	      ],
+	      "children": [
 	        {
-	          "type": "text",
+	          "type": "image",
 	          "classList": [
-	            "title"
+	            "thumb"
 	          ],
 	          "attr": {
-	            "value": "Objective C"
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/29/747d2DyrV6.jpg"
+	          }
+	        }
+	      ]
+	    },
+	    {
+	      "type": "div",
+	      "classList": [
+	        "cell"
+	      ],
+	      "children": [
+	        {
+	          "type": "image",
+	          "classList": [
+	            "thumb"
+	          ],
+	          "attr": {
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/21/5SdWc152p1.jpg"
+	          }
+	        }
+	      ]
+	    },
+	    {
+	      "type": "div",
+	      "classList": [
+	        "cell"
+	      ],
+	      "children": [
+	        {
+	          "type": "image",
+	          "classList": [
+	            "thumb"
+	          ],
+	          "attr": {
+	            "src": "http://cdn.qiyestore.com/openapi/upload/2016/07/21/xX8NKtxP34.jpg"
 	          }
 	        }
 	      ]
@@ -154,17 +187,17 @@
 
 	module.exports = {
 	  "cell": {
-	    "marginTop": 10,
+	    "marginTop": 64,
 	    "marginLeft": 10,
 	    "flexDirection": "row"
 	  },
 	  "thumb": {
-	    "width": 200,
-	    "height": 200
+	    "height": 200,
+	    "width": 480
 	  },
 	  "title": {
-	    "textAlign": "center",
-	    "flex": 1,
+	    "width": 50,
+	    "height": 30,
 	    "color": "#808080",
 	    "fontSize": 50
 	  }

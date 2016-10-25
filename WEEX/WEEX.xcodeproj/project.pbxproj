@@ -16,9 +16,9 @@
 		50757B051DBF120700B8DC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50757B031DBF120700B8DC26 /* LaunchScreen.storyboard */; };
 		50757B101DBF120800B8DC26 /* WEEXTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50757B0F1DBF120800B8DC26 /* WEEXTests.m */; };
 		50757B1B1DBF120800B8DC26 /* WEEXUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 50757B1A1DBF120800B8DC26 /* WEEXUITests.m */; };
-		50757B291DBF121500B8DC26 /* list.js in Resources */ = {isa = PBXBuildFile; fileRef = 50757B281DBF121500B8DC26 /* list.js */; };
 		50757B2B1DBF121C00B8DC26 /* sdk in Resources */ = {isa = PBXBuildFile; fileRef = 50757B2A1DBF121C00B8DC26 /* sdk */; };
 		50757B2E1DBF13E500B8DC26 /* LoderImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 50757B2D1DBF13E500B8DC26 /* LoderImageData.m */; };
+		50757B441DBF588E00B8DC26 /* list.js in Resources */ = {isa = PBXBuildFile; fileRef = 50757B431DBF588E00B8DC26 /* list.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,10 +56,10 @@
 		50757B161DBF120800B8DC26 /* WEEXUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WEEXUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		50757B1A1DBF120800B8DC26 /* WEEXUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WEEXUITests.m; sourceTree = "<group>"; };
 		50757B1C1DBF120800B8DC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		50757B281DBF121500B8DC26 /* list.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = list.js; sourceTree = "<group>"; };
 		50757B2A1DBF121C00B8DC26 /* sdk */ = {isa = PBXFileReference; lastKnownFileType = folder; path = sdk; sourceTree = "<group>"; };
 		50757B2C1DBF13E500B8DC26 /* LoderImageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoderImageData.h; sourceTree = "<group>"; };
 		50757B2D1DBF13E500B8DC26 /* LoderImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoderImageData.m; sourceTree = "<group>"; };
+		50757B431DBF588E00B8DC26 /* list.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = list.js; sourceTree = "<group>"; };
 		8F8589C4CB7B2ED20D01ED56 /* Pods-WEEX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEEX.release.xcconfig"; path = "Pods/Target Support Files/Pods-WEEX/Pods-WEEX.release.xcconfig"; sourceTree = "<group>"; };
 		BF170DC3FFD8181E303F6B43 /* Pods-WEEX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WEEX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WEEX/Pods-WEEX.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,7 +93,7 @@
 		50757AE91DBF120700B8DC26 = {
 			isa = PBXGroup;
 			children = (
-				50757B281DBF121500B8DC26 /* list.js */,
+				50757B431DBF588E00B8DC26 /* list.js */,
 				50757B2A1DBF121C00B8DC26 /* sdk */,
 				50757AF41DBF120700B8DC26 /* WEEX */,
 				50757B0E1DBF120800B8DC26 /* WEEXTests */,
@@ -289,9 +289,9 @@
 			files = (
 				50757B051DBF120700B8DC26 /* LaunchScreen.storyboard in Resources */,
 				50757B021DBF120700B8DC26 /* Assets.xcassets in Resources */,
-				50757B291DBF121500B8DC26 /* list.js in Resources */,
 				50757B001DBF120700B8DC26 /* Main.storyboard in Resources */,
 				50757B2B1DBF121C00B8DC26 /* sdk in Resources */,
+				50757B441DBF588E00B8DC26 /* list.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
